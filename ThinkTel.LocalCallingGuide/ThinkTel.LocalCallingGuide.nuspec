@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>ThinkTel.LocalCallingGuide</id>
+    <version>1.0.0</version>
+    <authors>Paul Vaillant</authors>
+	<language>en-us</language>
+    <licenseUrl>https://raw.githubusercontent.com/thinktel/ThinkTel.LocalCallingGuide/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/thinktel/ThinkTel.LocalCallingGuide</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A library to lookup ratecenter information by NPA/NXX using LocalCallingGuide. Requires .Net 4.5+</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2013 ThinkTel Communications</copyright>
+    <tags>LocalCallingGuide Telephony NPANXX</tags>
+  </metadata>
+  <files>
+	<file src="bin\release\ThinkTel.LocalCallingGuide.dll" target="lib\net45" />
+  </files>
+</package>
