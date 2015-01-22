@@ -334,9 +334,9 @@ namespace ThinkTel.LocalCallingGuide.Tests
 			await ThrowsAsync<ArgumentException>(async () => await client.LookupNpaNxxRatecenterAsync(780, 100));
 			await ThrowsAsync<ArgumentException>(async () => await client.LookupNpaNxxRatecenterAsync(780, 1000));
 
-			client.SetupGet(BASE_URL + "xmlprefix.php?npa=780&nxx=809", XMLPREFIX_INVALID);
+			client.SetupGet(BASE_URL + "xmlprefix.php?npa=780&nxx=888", XMLPREFIX_INVALID);
 
-			await ThrowsAsync<ServerException>(async () => await client.LookupNpaNxxRatecenterAsync(780, 809));
+			await ThrowsAsync<ServerException>(async () => await client.LookupNpaNxxRatecenterAsync(780, 888));
 		}
 		
 		private static async Task ThrowsAsync<T>(Func<Task> codeUnderTest) where T : Exception
