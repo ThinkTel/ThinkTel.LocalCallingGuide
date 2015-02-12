@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ThinkTel.LocalCallingGuide
 {
-	public class LocalCallingGuideClient
+	public class LocalCallingGuideClient : ILocalCallingGuideClient
 	{
 		private const string BASE_URL = "http://www.localcallingguide.com/";
 

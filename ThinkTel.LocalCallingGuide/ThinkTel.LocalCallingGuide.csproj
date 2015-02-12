@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ILocalCallingGuideClient.cs" />
     <Compile Include="LocalCallingGuideClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResponseException.cs" />
